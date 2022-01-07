@@ -8,11 +8,5 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // a man code
-        // SECOND CHANGE
-        //evan made changes
-        //tHIRD cHANGE
-        //FOURTH CHANGE
-        // fifth change
     }
 }
