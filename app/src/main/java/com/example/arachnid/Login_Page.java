@@ -9,9 +9,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class Login_Page extends AppCompatActivity {
+    TextInputEditText username_tf, password_tf;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,18 +22,8 @@ public class Login_Page extends AppCompatActivity {
         getSupportActionBar().hide();   // hide the title bar
         setContentView(R.layout.login_page);
 
+        username_tf = findViewById(R.id.id_username);
 
-        Button btn = null;
-
-        
-        
-        
-        btn.setOnClickListener(new View.OnClickListener() { // Switch from Sign Up Page to Login Page
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Login_Page.this, Signup_Page.class));
-            }
-        });
 
     }
 }
