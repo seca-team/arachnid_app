@@ -146,7 +146,7 @@
 
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/login_btn_id"
             style=""
             android:layout_width="226dp"
             android:layout_height="50dp"
