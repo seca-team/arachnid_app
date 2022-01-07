@@ -20,8 +20,11 @@ public class Login_Page extends AppCompatActivity {
         setContentView(R.layout.login_page);
 
 
-        TextInputLayout
+        Button btn = null;
 
+        
+        
+        
         btn.setOnClickListener(new View.OnClickListener() { // Switch from Sign Up Page to Login Page
             @Override
             public void onClick(View v) {
