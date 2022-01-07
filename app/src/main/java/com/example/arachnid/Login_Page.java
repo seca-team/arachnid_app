@@ -9,16 +9,18 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.textfield.TextInputLayout;
+
 public class Login_Page extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
-        getSupportActionBar().hide(); // hide the title bar
-        // this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-        //WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
+        requestWindowFeature(Window.FEATURE_NO_TITLE);  //hide the title
+        getSupportActionBar().hide();   // hide the title bar
         setContentView(R.layout.login_page);
-        Button btn = (Button)findViewById(R.id.continue_button);
+
+
+        TextInputLayout
 
         btn.setOnClickListener(new View.OnClickListener() { // Switch from Sign Up Page to Login Page
             @Override
