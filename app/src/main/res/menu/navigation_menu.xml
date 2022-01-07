@@ -2,29 +2,35 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="HardcodedText">
-
     <item
+        android:icon="@drawable/ic_baseline_cloud_download_24"
         android:id="@+id/nav_downloads"
         android:title="Downloads" />
 
     <item
+        android:icon="@drawable/ic_baseline_settings_24"
         android:id="@+id/nav_settings"
         android:title="Settings" />
 
     <item
+        android:icon="@drawable/ic_baseline_update_24"
         android:id="@+id/nav_updates"
         android:title="Updates" />
 
     <item
+        android:icon="@drawable/ic_baseline_privacy_tip_24"
         android:id="@+id/nav_privacy_policy"
         android:title="Privacy Policy" />
-    <item
+     <item
+        android:icon="@drawable/ic_baseline_check_circle_24"
         android:id="@+id/nav_Terms_conditions"
         android:title="Terms and Conditions" />
     <item
+        android:icon="@drawable/ic_baseline_help_24"
         android:id="@+id/nav_help"
         android:title="Help" />
     <item
+        android:icon="@drawable/ic_baseline_contacts_24"
         android:id="@+id/nav_contact_us"
         android:title="Contact Us" />
 
