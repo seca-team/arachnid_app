@@ -5,19 +5,16 @@
     android:id="@+id/my_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:headerLayout="@layout/header_layout"
         android:layout_gravity="start"
-        android:background="@color/Aquamarine_2"
-        app:menu="@menu/navigation_menu"/>
-
-
-
-
+        android:background="@color/Emerald"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/navigation_menu" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -28,14 +25,14 @@
         <SearchView
             android:layout_width="315dp"
             android:layout_height="49dp"
-            app:queryHint="Search products..."
-            android:background="@color/Honeydew"
-            android:layout_marginTop="168dp"
+            android:layout_marginTop="112dp"
+            android:background="@drawable/searchview_round_corner"
+            android:backgroundTint="@color/Honeydew"
+            android:iconifiedByDefault="false"
+            android:queryHint="search"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" >
-
+            app:layout_constraintTop_toTopOf="parent">
 
 
         </SearchView>
