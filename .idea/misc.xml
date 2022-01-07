@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/aman/arachnid/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/arachnid_app/app/src/main/res/drawable/round_layout_login.xml" value="0.1" />
+        <entry key="..\:/arachnid_app/app/src/main/res/drawable/round_skip_button.xml" value="0.1" />
         <entry key="..\:/arachnid_app/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/arachnid_app/app/src/main/res/layout/login_page.xml" value="0.1" />
+        <entry key="..\:/arachnid_app/app/src/main/res/layout/signup_page.xml" value="0.1" />
       </map>
     </option>
   </component>
