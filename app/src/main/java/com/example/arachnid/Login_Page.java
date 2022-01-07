@@ -23,6 +23,7 @@ public class Login_Page extends AppCompatActivity {
         setContentView(R.layout.login_page);
 
         username_tf = findViewById(R.id.id_username);
+        password_tf = findViewById(R.id.id_password);
 
 
     }
