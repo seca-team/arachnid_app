@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {  // To Open 3 line icon for navigation
 
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
             return true;

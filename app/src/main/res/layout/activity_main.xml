@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="@color/Aquamarine_2"
         app:menu="@menu/navigation_menu"/>
 </androidx.drawerlayout.widget.DrawerLayout>
 
