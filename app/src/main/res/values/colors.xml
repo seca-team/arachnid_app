@@ -7,5 +7,6 @@
     <color name="Aquamarine_1">#5CDB95</color>
     <color name="Aquamarine_2">#8EE4AF</color>
     <color name="Honeydew">#EDF5E1</color>
+    <color name="Transparent">#00000000</color>
 
 </resources>

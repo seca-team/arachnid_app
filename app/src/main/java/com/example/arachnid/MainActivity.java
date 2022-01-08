@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         // to make the Navigation drawer icon always appear on the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Search_View = findViewById(R.id.searchView);
-        searchViewText = findViewById(R.id.searchViewText);
+        T
 
+/*
 
         Search_View.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        */
+
 
     }
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {  // To Open 3 line icon for navigation
