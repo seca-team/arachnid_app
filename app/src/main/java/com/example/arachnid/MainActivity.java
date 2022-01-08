@@ -40,21 +40,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         // to make the Navigation drawer icon always appear on the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         setNavigationViewListener();
-
-
-        /*
-
-        Search_View.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                searchViewText.setVisibility(View.INVISIBLE);
-
-            }
-        });
-        */
-
 
     }
 
@@ -73,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         Toast.makeText(getApplicationContext(), "Item id: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         //drawerLayout.closeDrawer(GravityCompat.START);
-        //Toast.makeText(getApplicationContext(), "Incorrect username/password.", Toast.LENGTH_SHORT).show();
+
         return true;
     }
 
