@@ -7,8 +7,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/continue_button"
-        style=""
+        android:id="@+id/signup_btn_id"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:background="@drawable/round_skip_button"
@@ -34,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/continue_button"
+        app:layout_constraintTop_toBottomOf="@+id/signup_btn_id"
         app:layout_constraintVertical_bias="0.126" />
 
     <Button
@@ -134,7 +133,7 @@
             app:layout_constraintTop_toBottomOf="@+id/id_password_layout" />
 
         <Button
-            android:id="@+id/login_btn_id"
+            android:id="@+id/login_cont_btn_id"
             android:layout_width="226dp"
             android:layout_height="50dp"
             android:background="@drawable/round_skip_button"

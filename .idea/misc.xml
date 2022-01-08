@@ -3,21 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/aman/arachnid/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/download_icon_background.xml" value="0.14635416666666667" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.2703125" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.2703125" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/ic_baseline_update_24.xml" value="0.2703125" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/round_layout_login.xml" value="0.1" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/round_skip_button.xml" value="0.1" />
-        <entry key="..\:/arachnid_app/app/src/main/res/drawable/searchview_round_corner.xml" value="0.2703125" />
-        <entry key="..\:/arachnid_app/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/arachnid_app/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/arachnid_app/app/src/main/res/layout/header_layout.xml" value="0.25416666666666665" />
-        <entry key="..\:/arachnid_app/app/src/main/res/layout/login_page.xml" value="0.1" />
-        <entry key="..\:/arachnid_app/app/src/main/res/layout/signup_page.xml" value="0.1" />
-        <entry key="..\:/arachnid_app/app/src/main/res/menu/navigation_menu.xml" value="0.176" />
-        <entry key="..\:/arachnid_app/app/src/main/res/menu/top_app_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/drawable/avatar.xml" value="0.1" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/drawable/round_layout_login.xml" value="0.26614583333333336" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/layout/header_layout.xml" value="0.15555555555555556" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/layout/login_page.xml" value="0.264" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/layout/signup_page.xml" value="0.25" />
+        <entry key="..\:/aman/arachnid/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
