@@ -63,7 +63,7 @@ public class Login_Page extends AppCompatActivity {
 
                 Intent intent = new Intent(Login_Page.this, Signup_Page.class);
                 startActivity(intent);
-                finish();
+                //finish();
 
             }
         });

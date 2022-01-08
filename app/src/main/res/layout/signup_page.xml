@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="0.48000002">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/id_username_layout"
+            android:id="@+id/id_username_layout_signup"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="255dp"
             android:layout_height="60dp"
@@ -92,7 +92,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/outlinedpassField"
+            android:id="@+id/id_password_layout_signup"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="255dp"
             android:layout_height="60dp"
@@ -106,7 +106,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/id_username_layout"
+            app:layout_constraintTop_toBottomOf="@+id/id_username_layout_signup"
             app:layout_constraintVertical_bias="0.04000002">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -120,7 +120,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/confirm_password"
+            android:id="@+id/id_conf_password_layout_signup"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="255dp"
             android:layout_height="60dp"
@@ -133,7 +133,7 @@
             app:hintTextColor="#808080"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/outlinedpassField">
+            app:layout_constraintTop_toBottomOf="@+id/id_password_layout_signup">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -157,7 +157,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/confirm_password"
+            app:layout_constraintTop_toBottomOf="@+id/id_conf_password_layout_signup"
             app:layout_constraintVertical_bias="0.539" />
 
 
