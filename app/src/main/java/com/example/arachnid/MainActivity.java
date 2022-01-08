@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
 
-    SearchView Search_View;
-    TextView searchViewText;
+    //SearchView Search_View;
+    //TextView searchViewText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +37,10 @@ public class MainActivity extends AppCompatActivity {
         // to make the Navigation drawer icon always appear on the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        T
 
-/*
+
+
+        /*
 
         Search_View.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,9 +53,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {  // To Open 3 line icon for navigation
 
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
+
             return true;
         }
         return super.onOptionsItemSelected(item);

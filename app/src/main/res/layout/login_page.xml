@@ -38,14 +38,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="71dp"
-        android:layout_height="48dp"
+        android:layout_width="82dp"
+        android:layout_height="53dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/round_skip_button"
+        android:fontFamily="@font/pangolin_regular"
         android:text="SKIP"
         android:textColor="#EDF5E1"
         android:textSize="10dp"
-        android:fontFamily="@font/pangolin_regular"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.978"
