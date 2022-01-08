@@ -30,7 +30,6 @@ public class Login_Page extends AppCompatActivity {
         password_tf = findViewById(R.id.id_password_layout);
         login_btn = findViewById(R.id.login_btn_id);
 
-
         // username and password, confirm value from sql, after connecting with MySQL, Azure.
 
         {
