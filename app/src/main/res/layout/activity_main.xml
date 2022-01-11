@@ -6,19 +6,73 @@
     android:id="@+id/my_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:visibility="visible"
+
     tools:context=".MainActivity">
+
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+
         android:background="@color/Emerald"
         app:headerLayout="@layout/header_layout"
         app:menu="@menu/navigation_menu" />
 
+    <include layout="@layout/content_main"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:minHeight="?actionBarSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.001"
+            app:navigationIcon="@drawable/ic_baseline_menu_24" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--<SearchView
+        android:layout_width="315dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/searchview_round_corner"
+        android:backgroundTint="@color/Honeydew"
+        android:iconifiedByDefault="false"
+        android:queryHint="search"
+        android:queryBackground="@color/Transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </SearchView>
+    -->
 </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
+
+
 
