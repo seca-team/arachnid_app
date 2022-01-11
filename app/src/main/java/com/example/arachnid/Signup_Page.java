@@ -56,8 +56,8 @@ public class Signup_Page extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Signup_Page.this, Login_Page.class);
-                startActivity(intent);
+                //Intent intent = new Intent(Signup_Page.this, Login_Page.class);
+                //startActivity(intent);
                 //finish();
 
             }
